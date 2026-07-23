@@ -108,3 +108,16 @@ Utilizando a arquitetura multimodal Grounding DINO (Hugging Face), o projeto tra
 -   **Ambiente:** Jupyter Notebook
 
 ---
+
+## Autor
+
+Deivison Morais. Visite o meu portfólio de projetos [aqui.](https://deivison1983.github.io/portfolio_projetos/)
+
+Pós-Graduação em Inteligência Artificial e Aprendizado de Máquina - PUC Minas
+
+### Contatos
+
+<div>
+  <a href = "https://www.linkedin.com/in/deivisonmorais/"><img src = "https://img.shields.io/badge/-deivisonmorais-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href = "mailto:deivison1983@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</div>
