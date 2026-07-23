@@ -1,10 +1,13 @@
 # Detecção Zero-Shot de Objetos com Grounding DINO e IA Generativa Multimodal
 
 ## Sobre o Projeto
+
 Este projeto implementa um sistema avançado de detecção automática de objetos em imagens utilizando a abordagem Zero-Shot Object Detection, fundamentada em modelos generativos de fundação (Foundation Models). A solução foi desenvolvida para identificar e localizar objetos a partir de descrições em linguagem natural (prompts de texto), eliminando a necessidade estatística e operacional de criar ou rotular exaustivos conjuntos de dados para cada nova classe de interesse.
 
 Utilizando a arquitetura multimodal Grounding DINO (Hugging Face), o projeto traduz demandas de visão computacional em um problema de alinhamento entre distribuições espaciais (imagem) e semânticas (texto). A implementação contempla o ciclo completo de um pipeline de inferência, desde a padronização do ambiente e controle de reprodutibilidade até a execução em lote e extração quantitativa de resultados.
+
 ---
+
 ## Objetivo
 
 Visão macro dos objetivos:
@@ -16,10 +19,10 @@ Visão macro dos objetivos:
 - Produzir estatísticas sobre os objetos identificados.
 
 ## Detalhes técnicos
-*   **Inferência Zero-Shot:** Detectar novas categorias de objetos em imagens sem a necessidade de fine-tuning ou retreinamento supervisionado.
-*   **Processamento em Lote (Batch Processing):** Automatizar a ingestão e a análise preditiva de múltiplas imagens simultaneamente.
-*   **Extração de Dados Quantitativos:** Gerar tensores de resultados contendo as coordenadas espaciais (bounding boxes), classificação textual e, criticamente, as probabilidades associadas (níveis de confiança) para cada detecção.
-*   **Geração de Relatórios:** Produzir sumarizações estatísticas automatizadas com a contagem de classes e a confiança média dos objetos detectados.
+-   **Inferência Zero-Shot:** Detectar novas categorias de objetos em imagens sem a necessidade de fine-tuning ou retreinamento supervisionado.
+-   **Processamento em Lote (Batch Processing):** Automatizar a ingestão e a análise preditiva de múltiplas imagens simultaneamente.
+-   **Extração de Dados Quantitativos:** Gerar tensores de resultados contendo as coordenadas espaciais (bounding boxes), classificação textual e, criticamente, as probabilidades associadas (níveis de confiança) para cada detecção.
+-   **Geração de Relatórios:** Produzir sumarizações estatísticas automatizadas com a contagem de classes e a confiança média dos objetos detectados.
 
 ---
 
@@ -42,6 +45,7 @@ Visão macro dos objetivos:
 
 5. **Análise de Saída:**
    * Consolidação das predições em arquivos JSON e sumarização analítica das detecções para consumo de dados.
+
 ---
 
 ## Principais Etapas Desenvolvidas
@@ -94,11 +98,14 @@ Visão macro dos objetivos:
 - Zero-Shot Object Detection
 - Hugging Face
 
+---
+
 ## Tecnologias Utilizadas
-*   **Linguagem:** Python
-*   **Deep Learning Framework:** PyTorch (CUDA 12.1)
-*   **Modelos e Hub:** Hugging Face (Transformers, Accelerate), Grounding DINO
-*   **Manipulação e Análise de Dados:** NumPy, Pandas
-*   **Processamento Visual:** Pillow, Matplotlib, Seaborn
-*   **Ambiente:** Jupyter Notebook
+-   **Linguagem:** Python
+-   **Deep Learning Framework:** PyTorch (CUDA 12.1)
+-   **Modelos e Hub:** Hugging Face (Transformers, Accelerate), Grounding DINO
+-   **Manipulação e Análise de Dados:** NumPy, Pandas
+-   **Processamento Visual:** Pillow, Matplotlib, Seaborn
+-   **Ambiente:** Jupyter Notebook
+
 ---
