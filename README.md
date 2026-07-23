@@ -1,5 +1,9 @@
 # Detecção Zero-Shot de Objetos com Grounding DINO e IA Generativa Multimodal
 
+<div align="center">
+      <img src="notebook/relatorios_individuais/detected_city.png" width="75%" height="75%">
+</div> 
+
 ## Sobre o Projeto
 
 Este projeto implementa um sistema avançado de detecção automática de objetos em imagens utilizando a abordagem Zero-Shot Object Detection, fundamentada em modelos generativos de fundação (Foundation Models). A solução foi desenvolvida para identificar e localizar objetos a partir de descrições em linguagem natural (prompts de texto), eliminando a necessidade estatística e operacional de criar ou rotular exaustivos conjuntos de dados para cada nova classe de interesse.
@@ -19,6 +23,10 @@ Utilizando a arquitetura multimodal Grounding DINO (Hugging Face), o projeto tra
 
 ## Pipeline Metodológico e Atividades Desenvolvidas
 
+<div align="center">
+      <img src="imagens/pipeline.png" width="75%" height="75%">
+</div> 
+
 1. **Definição e Modelagem do Problema:**
    * Análise do custo computacional e do viés amostral no treinamento supervisionado tradicional.
    * Modelagem da solução via transferência de aprendizado Zero-Shot.
@@ -36,10 +44,6 @@ Utilizando a arquitetura multimodal Grounding DINO (Hugging Face), o projeto tra
 
 5. **Análise de Saída:**
    * Consolidação das predições em arquivos JSON e sumarização analítica das detecções para consumo de dados.
-
-  <div align="center">
-      <img src="imagens/pipeline.png" width="75%" height="75%">
-</div> 
 
 ---
 
