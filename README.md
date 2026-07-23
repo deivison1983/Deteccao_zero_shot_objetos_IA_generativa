@@ -10,19 +10,10 @@ Utilizando a arquitetura multimodal Grounding DINO (Hugging Face), o projeto tra
 
 ## Objetivo
 
-Visão macro dos objetivos:
-
-- Detectar objetos utilizando prompts textuais;
-- Executar inferência Zero-Shot;
-- Processar múltiplas imagens automaticamente;
-- Gerar imagens anotadas com *bounding boxes* e níveis de confiança;
-- Produzir estatísticas sobre os objetos identificados.
-
-## Detalhes técnicos
--   **Inferência Zero-Shot:** Detectar novas categorias de objetos em imagens sem a necessidade de fine-tuning ou retreinamento supervisionado.
--   **Processamento em Lote (Batch Processing):** Automatizar a ingestão e a análise preditiva de múltiplas imagens simultaneamente.
--   **Extração de Dados Quantitativos:** Gerar tensores de resultados contendo as coordenadas espaciais (bounding boxes), classificação textual e, criticamente, as probabilidades associadas (níveis de confiança) para cada detecção.
--   **Geração de Relatórios:** Produzir sumarizações estatísticas automatizadas com a contagem de classes e a confiança média dos objetos detectados.
+- **Inferência Zero-Shot:** Detectar objetos utilizando prompts textuais;
+- **Processamento em Lote (Batch Processing):** Processar múltiplas imagens automaticamente;
+- **Extração de Dados Quantitativos:** Gerar tensores de resultados contendo as coordenadas espaciais (bounding boxes), classificação textual e, criticamente, as probabilidades associadas (níveis de confiança) para cada detecção.
+- **Geração de Relatórios:** Produzir sumarizações estatísticas automatizadas com a contagem de classes e a confiança média dos objetos detectados.
 
 ---
 
