@@ -1,0 +1,38 @@
+{
+  "arquivo": "patio.jpg",
+  "relatorio": {
+    "total": 2,
+    "classes": {
+      "a chair": 1,
+      "window": 1
+    },
+    "confianca_media": 0.6425986289978027,
+    "confianca_min": 0.6425960063934326,
+    "confianca_max": 0.6426012516021729
+  },
+  "deteccoes": [
+    {
+      "scores": 0.6426012516021729,
+      "boxes": [
+        401.17852783203125,
+        626.4960327148438,
+        741.0213012695312,
+        937.7040405273438
+      ],
+      "text_labels": "a chair",
+      "labels": "a chair"
+    },
+    {
+      "scores": 0.6425960063934326,
+      "boxes": [
+        1240.9927978515625,
+        153.71826171875,
+        1417.315185546875,
+        529.2577514648438
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    }
+  ],
+  "tempo": 0.7456948757171631
+}

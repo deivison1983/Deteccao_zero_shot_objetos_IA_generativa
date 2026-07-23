@@ -1,0 +1,74 @@
+{
+  "arquivo": "predio-2.jpg",
+  "relatorio": {
+    "total": 5,
+    "classes": {
+      "building facade a residential house": 1,
+      "a chair": 1,
+      "a building facade a residential house": 1,
+      "a tree": 1,
+      "a painting": 1
+    },
+    "confianca_media": 0.4269955694675446,
+    "confianca_min": 0.361947625875473,
+    "confianca_max": 0.5143113732337952
+  },
+  "deteccoes": [
+    {
+      "scores": 0.5143113732337952,
+      "boxes": [
+        151.34481811523438,
+        182.58450317382812,
+        881.2645263671875,
+        873.4581298828125
+      ],
+      "text_labels": "building facade a residential house",
+      "labels": "building facade a residential house"
+    },
+    {
+      "scores": 0.4310142993927002,
+      "boxes": [
+        387.8320007324219,
+        913.3576049804688,
+        419.26763916015625,
+        948.2559204101562
+      ],
+      "text_labels": "a chair",
+      "labels": "a chair"
+    },
+    {
+      "scores": 0.4222457706928253,
+      "boxes": [
+        3.6901650428771973,
+        127.46884155273438,
+        216.3538360595703,
+        907.9736328125
+      ],
+      "text_labels": "a building facade a residential house",
+      "labels": "a building facade a residential house"
+    },
+    {
+      "scores": 0.4054587781429291,
+      "boxes": [
+        215.6508026123047,
+        100.21931457519531,
+        616.4261474609375,
+        291.53289794921875
+      ],
+      "text_labels": "a tree",
+      "labels": "a tree"
+    },
+    {
+      "scores": 0.361947625875473,
+      "boxes": [
+        778.130859375,
+        850.7832641601562,
+        813.4260864257812,
+        887.0371704101562
+      ],
+      "text_labels": "a painting",
+      "labels": "a painting"
+    }
+  ],
+  "tempo": 0.5850093364715576
+}

@@ -1,0 +1,26 @@
+{
+  "arquivo": "sala-3.jpg",
+  "relatorio": {
+    "total": 1,
+    "classes": {
+      "a chair": 1
+    },
+    "confianca_media": 0.6364372968673706,
+    "confianca_min": 0.6364372968673706,
+    "confianca_max": 0.6364372968673706
+  },
+  "deteccoes": [
+    {
+      "scores": 0.6364372968673706,
+      "boxes": [
+        431.95635986328125,
+        280.5643005371094,
+        595.2780151367188,
+        399.4023742675781
+      ],
+      "text_labels": "a chair",
+      "labels": "a chair"
+    }
+  ],
+  "tempo": 0.8163013458251953
+}

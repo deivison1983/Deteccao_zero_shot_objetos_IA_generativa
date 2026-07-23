@@ -1,0 +1,62 @@
+{
+  "arquivo": "cozinha.jpg",
+  "relatorio": {
+    "total": 4,
+    "classes": {
+      "a chair": 1,
+      "window": 1,
+      "a residential house": 1,
+      "a tree": 1
+    },
+    "confianca_media": 0.47612615674734116,
+    "confianca_min": 0.36500704288482666,
+    "confianca_max": 0.6365197896957397
+  },
+  "deteccoes": [
+    {
+      "scores": 0.6365197896957397,
+      "boxes": [
+        72.71784973144531,
+        282.7397155761719,
+        201.82577514648438,
+        452.2593994140625
+      ],
+      "text_labels": "a chair",
+      "labels": "a chair"
+    },
+    {
+      "scores": 0.49080371856689453,
+      "boxes": [
+        0.16439609229564667,
+        104.81450653076172,
+        72.9746322631836,
+        257.95361328125
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    },
+    {
+      "scores": 0.4121740758419037,
+      "boxes": [
+        4.394009113311768,
+        4.195305347442627,
+        615.558837890625,
+        452.05584716796875
+      ],
+      "text_labels": "a residential house",
+      "labels": "a residential house"
+    },
+    {
+      "scores": 0.36500704288482666,
+      "boxes": [
+        465.87811279296875,
+        171.5505828857422,
+        557.1970825195312,
+        241.61737060546875
+      ],
+      "text_labels": "a tree",
+      "labels": "a tree"
+    }
+  ],
+  "tempo": 0.9843592643737793
+}

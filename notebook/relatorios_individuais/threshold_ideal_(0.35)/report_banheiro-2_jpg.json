@@ -1,0 +1,61 @@
+{
+  "arquivo": "banheiro-2.jpg",
+  "relatorio": {
+    "total": 4,
+    "classes": {
+      "window": 2,
+      "a residential house": 1,
+      "a painting": 1
+    },
+    "confianca_media": 0.41837674379348755,
+    "confianca_min": 0.35641738772392273,
+    "confianca_max": 0.5370804071426392
+  },
+  "deteccoes": [
+    {
+      "scores": 0.5370804071426392,
+      "boxes": [
+        1882.377685546875,
+        271.58917236328125,
+        2117.016845703125,
+        1082.8631591796875
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    },
+    {
+      "scores": 0.4114486277103424,
+      "boxes": [
+        11.747017860412598,
+        9.489320755004883,
+        2108.4130859375,
+        1397.333740234375
+      ],
+      "text_labels": "a residential house",
+      "labels": "a residential house"
+    },
+    {
+      "scores": 0.3685605525970459,
+      "boxes": [
+        1138.6168212890625,
+        225.6153106689453,
+        1554.28271484375,
+        773.9683227539062
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    },
+    {
+      "scores": 0.35641738772392273,
+      "boxes": [
+        305.37152099609375,
+        544.1046142578125,
+        515.2514038085938,
+        755.9815063476562
+      ],
+      "text_labels": "a painting",
+      "labels": "a painting"
+    }
+  ],
+  "tempo": 0.8173558712005615
+}

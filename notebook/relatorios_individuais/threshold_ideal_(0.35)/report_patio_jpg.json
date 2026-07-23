@@ -1,0 +1,62 @@
+{
+  "arquivo": "patio.jpg",
+  "relatorio": {
+    "total": 4,
+    "classes": {
+      "a chair": 1,
+      "window": 1,
+      "building facade a residential house": 1,
+      "a painting": 1
+    },
+    "confianca_media": 0.5591466799378395,
+    "confianca_min": 0.47220417857170105,
+    "confianca_max": 0.6426012516021729
+  },
+  "deteccoes": [
+    {
+      "scores": 0.6426012516021729,
+      "boxes": [
+        401.17852783203125,
+        626.4960327148438,
+        741.0213012695312,
+        937.7040405273438
+      ],
+      "text_labels": "a chair",
+      "labels": "a chair"
+    },
+    {
+      "scores": 0.6425960063934326,
+      "boxes": [
+        1240.9927978515625,
+        153.71826171875,
+        1417.315185546875,
+        529.2577514648438
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    },
+    {
+      "scores": 0.4791852831840515,
+      "boxes": [
+        1021.4370727539062,
+        5.195211887359619,
+        1501.1964111328125,
+        908.7322387695312
+      ],
+      "text_labels": "building facade a residential house",
+      "labels": "building facade a residential house"
+    },
+    {
+      "scores": 0.47220417857170105,
+      "boxes": [
+        1418.6314697265625,
+        431.9571533203125,
+        1497.05615234375,
+        681.0386352539062
+      ],
+      "text_labels": "a painting",
+      "labels": "a painting"
+    }
+  ],
+  "tempo": 0.8568692207336426
+}

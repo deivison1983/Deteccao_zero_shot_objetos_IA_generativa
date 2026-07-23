@@ -1,0 +1,61 @@
+{
+  "arquivo": "casa.jpg",
+  "relatorio": {
+    "total": 4,
+    "classes": {
+      "window": 2,
+      "a tree": 1,
+      "building a residential house": 1
+    },
+    "confianca_media": 0.6116214543581009,
+    "confianca_min": 0.5654052495956421,
+    "confianca_max": 0.6781972050666809
+  },
+  "deteccoes": [
+    {
+      "scores": 0.6781972050666809,
+      "boxes": [
+        431.0638732910156,
+        313.9473876953125,
+        558.3861083984375,
+        413.2907409667969
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    },
+    {
+      "scores": 0.6365416646003723,
+      "boxes": [
+        136.25230407714844,
+        314.1778869628906,
+        252.6739501953125,
+        419.4408264160156
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    },
+    {
+      "scores": 0.5663416981697083,
+      "boxes": [
+        11.404637336730957,
+        329.48699951171875,
+        77.79719543457031,
+        517.4934692382812
+      ],
+      "text_labels": "a tree",
+      "labels": "a tree"
+    },
+    {
+      "scores": 0.5654052495956421,
+      "boxes": [
+        44.42832946777344,
+        155.6234893798828,
+        703.8572387695312,
+        550.763671875
+      ],
+      "text_labels": "building a residential house",
+      "labels": "building a residential house"
+    }
+  ],
+  "tempo": 0.6264350414276123
+}

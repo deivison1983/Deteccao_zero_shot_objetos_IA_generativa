@@ -1,0 +1,186 @@
+======================================================================
+RESUMO EXECUTIVO
+PROJETO DE DETECÇÃO DE OBJETOS ZERO-SHOT COM GROUNDING DINO
+======================================================================
+
+
+ENTREGÁVEIS
+
+• Pipeline completo para detecção de objetos zero-shot utilizando Grounding DINO.
+• Processamento em lote de imagens.
+• Avaliação de três configurações de threshold.
+• Relatórios individuais e métricas agregadas.
+• Exportação de imagens anotadas e resultados em formato JSON.
+
+
+RESULTADOS PRINCIPAIS
+
+1. Threshold recomendado: 0.35
+
+   • Apresentou, nos experimentos realizados, uma combinação favorável entre
+     taxa de detecção e confiança média.
+
+   • Taxa de detecção:
+     100.0%
+
+   • Confiança média global:
+     47.6%
+
+2. Desempenho
+
+   • Tempo médio de inferência:
+     794 ms por imagem.
+
+   • Processamento em lote com geração de métricas individuais e globais.
+
+3. Capacidade do modelo
+
+   • Detecção zero-shot de múltiplas classes sem necessidade de re-treinamento.
+
+   • Inclusão de novas categorias apenas por meio de descrições textuais
+     (text prompts).
+
+   • Classes avaliadas:
+     chair, painting, pedestrian, building,
+     house, car, tree e window.
+
+
+ANÁLISES REALIZADAS
+
+Análise individual
+
+• Bounding boxes coloridas por classe.
+
+• Quantidade de objetos detectados.
+
+• Confiança média por imagem.
+
+• Comparação visual entre os diferentes thresholds.
+
+Análise global
+
+• Estatísticas agregadas por configuração.
+
+• Distribuição das detecções por classe.
+
+• Comparação entre cobertura, confiança e desempenho computacional.
+
+
+RECOMENDAÇÃO DE CONFIGURAÇÃO
+
+Threshold:
+0.35
+
+NMS IoU:
+0.50
+
+Hardware recomendado
+
+• GPU com aproximadamente 6 GB de memória de vídeo ou superior para
+  reproduzir o ambiente experimental utilizado neste projeto.
+
+• Processamento em lote recomendado para conjuntos de imagens superiores a
+  100 arquivos.
+
+
+LIMITAÇÕES DO ESTUDO
+
+• O trabalho não utiliza conjunto de dados anotado (ground truth), portanto
+  métricas como Precision, Recall, F1-score e mAP não foram calculadas.
+
+• O modelo pode refletir vieses presentes nos conjuntos de dados utilizados
+  durante seu treinamento original.
+
+• O desempenho pode diminuir para objetos muito pequenos, conforme limitações
+  conhecidas de detectores baseados em Transformers.
+
+• O tempo de inferência torna-se significativamente maior quando executado
+  apenas em CPU.
+
+• Os pesos do modelo ocupam aproximadamente 1,4 GB em disco e exigem memória
+  adicional durante a inferência.
+
+• Os experimentos foram realizados utilizando um conjunto de 13 imagens do
+  domínio de edificações, não sendo suficiente para generalizar conclusões
+  para outros cenários.
+
+
+DOCUMENTAÇÃO GERADA
+
+• Notebook Jupyter modular e documentado.
+
+• Funções com type hints e docstrings.
+
+• Relatórios individuais contendo imagens anotadas e arquivos JSON.
+
+• Métricas agregadas passíveis de exportação para DataFrame ou CSV.
+
+• Resumo executivo consolidado.
+
+
+TRABALHOS FUTUROS
+
+• Validar o pipeline utilizando um conjunto de imagens anotadas
+  manualmente.
+
+• Calcular métricas clássicas de detecção de objetos
+  (Precision, Recall, F1-score e mAP).
+
+• Avaliar o comportamento do modelo em outros domínios de imagens.
+
+• Implementar batch inference real utilizando múltiplas imagens por
+  inferência para aumento de desempenho.
+
+• Investigar otimizações utilizando FP16, TensorRT ou ONNX Runtime.
+
+• Avaliar fine-tuning com LoRA para domínios específicos.
+
+• Desenvolver uma interface interativa utilizando Streamlit ou Gradio.
+
+
+----------------------------------------------------------------------
+MÉTRICAS POR CONFIGURAÇÃO
+----------------------------------------------------------------------
+
+Threshold Baixo (0.15)
+   Total de imagens processadas : 12
+   Total de detecções           : 358
+   Média por imagem             : 29.83
+   Taxa de detecção             : 100.0%
+   Confiança média global       : 26.62%
+   Imagens sem detecção         : 0
+   Tempo médio                  : 827 ms
+   Classe mais detectada        :  (215 detecções)
+   Classe menos detectada       : painting (1 detecções)
+
+Threshold Ideal (0.35) (RECOMENDADA)
+   Total de imagens processadas : 12
+   Total de detecções           : 58
+   Média por imagem             : 4.83
+   Taxa de detecção             : 100.0%
+   Confiança média global       : 47.56%
+   Imagens sem detecção         : 0
+   Tempo médio                  : 794 ms
+   Classe mais detectada        : window (18 detecções)
+   Classe menos detectada       : building a residential house (1 detecções)
+
+Threshold Alto (0.55)
+   Total de imagens processadas : 12
+   Total de detecções           : 17
+   Média por imagem             : 1.42
+   Taxa de detecção             : 66.7%
+   Confiança média global       : 64.26%
+   Imagens sem detecção         : 4
+   Tempo médio                  : 756 ms
+   Classe mais detectada        : a chair (4 detecções)
+   Classe menos detectada       : building a residential house (1 detecções)
+
+----------------------------------------------------------------------
+DESTAQUES COMPARATIVOS
+Maior cobertura  : Threshold Baixo (0.15) (100.0%)
+Maior confiança  : Threshold Alto (0.55) (64.26%)
+Configuração recomendada: Threshold 0.35 (melhor combinação observada entre taxa de detecção e confiança média).
+----------------------------------------------------------------------
+CONCLUSÃO
+O pipeline desenvolvido demonstrou ser capaz de realizar detecção de objetos zero-shot em lote utilizando o Grounding DINO, produzindo relatórios individuais, métricas agregadas e visualizações que permitem analisar o comportamento do modelo sob diferentes valores de threshold. Os resultados obtidos mostram que a configuração com threshold igual a 0.35 apresentou, neste conjunto experimental, uma combinação favorável entre cobertura das detecções e confiança média, constituindo a configuração recomendada para trabalhos futuros e evoluções deste projeto.
+======================================================================

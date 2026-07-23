@@ -1,0 +1,85 @@
+{
+  "arquivo": "predio-1.jpg",
+  "relatorio": {
+    "total": 6,
+    "classes": {
+      "a pedestrian walking": 1,
+      "car": 2,
+      "a building facade a residential house": 1,
+      "a tree": 1,
+      "a residential house": 1
+    },
+    "confianca_media": 0.5011490633090337,
+    "confianca_min": 0.35437899827957153,
+    "confianca_max": 0.6995573043823242
+  },
+  "deteccoes": [
+    {
+      "scores": 0.6995573043823242,
+      "boxes": [
+        582.1384887695312,
+        906.8789672851562,
+        636.8442993164062,
+        1018.9199829101562
+      ],
+      "text_labels": "a pedestrian walking",
+      "labels": "a pedestrian walking"
+    },
+    {
+      "scores": 0.6631268858909607,
+      "boxes": [
+        104.54651641845703,
+        958.138916015625,
+        247.21815490722656,
+        1022.9573974609375
+      ],
+      "text_labels": "car",
+      "labels": "car"
+    },
+    {
+      "scores": 0.4506889283657074,
+      "boxes": [
+        255.38096618652344,
+        29.51544189453125,
+        499.9981384277344,
+        981.171875
+      ],
+      "text_labels": "a building facade a residential house",
+      "labels": "a building facade a residential house"
+    },
+    {
+      "scores": 0.435003399848938,
+      "boxes": [
+        67.70307922363281,
+        867.631591796875,
+        169.82284545898438,
+        976.27197265625
+      ],
+      "text_labels": "a tree",
+      "labels": "a tree"
+    },
+    {
+      "scores": 0.40413886308670044,
+      "boxes": [
+        507.99627685546875,
+        969.1724243164062,
+        563.7759399414062,
+        995.0684204101562
+      ],
+      "text_labels": "car",
+      "labels": "car"
+    },
+    {
+      "scores": 0.35437899827957153,
+      "boxes": [
+        499.7630615234375,
+        775.0042114257812,
+        591.7892456054688,
+        930.6677856445312
+      ],
+      "text_labels": "a residential house",
+      "labels": "a residential house"
+    }
+  ],
+  "tempo": 0.837810754776001
+}

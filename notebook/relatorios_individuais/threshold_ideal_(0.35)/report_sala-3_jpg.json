@@ -1,0 +1,74 @@
+{
+  "arquivo": "sala-3.jpg",
+  "relatorio": {
+    "total": 5,
+    "classes": {
+      "a chair": 1,
+      "a residential house": 1,
+      "a painting": 1,
+      "a tree": 1,
+      "window": 1
+    },
+    "confianca_media": 0.42977671027183534,
+    "confianca_min": 0.3570324182510376,
+    "confianca_max": 0.6364372968673706
+  },
+  "deteccoes": [
+    {
+      "scores": 0.6364372968673706,
+      "boxes": [
+        431.95635986328125,
+        280.5643005371094,
+        595.2780151367188,
+        399.4023742675781
+      ],
+      "text_labels": "a chair",
+      "labels": "a chair"
+    },
+    {
+      "scores": 0.42969223856925964,
+      "boxes": [
+        2.4735841751098633,
+        4.190515041351318,
+        594.3267822265625,
+        397.578369140625
+      ],
+      "text_labels": "a residential house",
+      "labels": "a residential house"
+    },
+    {
+      "scores": 0.3684552013874054,
+      "boxes": [
+        347.27197265625,
+        120.68964385986328,
+        384.61279296875,
+        211.06985473632812
+      ],
+      "text_labels": "a painting",
+      "labels": "a painting"
+    },
+    {
+      "scores": 0.3572663962841034,
+      "boxes": [
+        432.02935791015625,
+        193.01083374023438,
+        470.2059631347656,
+        246.98764038085938
+      ],
+      "text_labels": "a tree",
+      "labels": "a tree"
+    },
+    {
+      "scores": 0.3570324182510376,
+      "boxes": [
+        537.9078369140625,
+        17.2653751373291,
+        595.906982421875,
+        385.489013671875
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    }
+  ],
+  "tempo": 0.8651838302612305
+}

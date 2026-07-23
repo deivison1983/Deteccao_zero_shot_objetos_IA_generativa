@@ -1,0 +1,62 @@
+{
+  "arquivo": "banheiro-1.jpg",
+  "relatorio": {
+    "total": 4,
+    "classes": {
+      "window": 1,
+      "a chair": 1,
+      "a residential house": 1,
+      "a tree": 1
+    },
+    "confianca_media": 0.39737618714571,
+    "confianca_min": 0.36105597019195557,
+    "confianca_max": 0.4218362867832184
+  },
+  "deteccoes": [
+    {
+      "scores": 0.4218362867832184,
+      "boxes": [
+        1.4150683879852295,
+        204.62147521972656,
+        96.8393325805664,
+        423.8329162597656
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    },
+    {
+      "scores": 0.4105382263660431,
+      "boxes": [
+        285.2696838378906,
+        519.5050659179688,
+        450.0991516113281,
+        798.0900268554688
+      ],
+      "text_labels": "a chair",
+      "labels": "a chair"
+    },
+    {
+      "scores": 0.3960742652416229,
+      "boxes": [
+        2.2448863983154297,
+        15.501827239990234,
+        564.98681640625,
+        902.6547241210938
+      ],
+      "text_labels": "a residential house",
+      "labels": "a residential house"
+    },
+    {
+      "scores": 0.36105597019195557,
+      "boxes": [
+        177.75067138671875,
+        455.93609619140625,
+        227.63401794433594,
+        528.4293212890625
+      ],
+      "text_labels": "a tree",
+      "labels": "a tree"
+    }
+  ],
+  "tempo": 0.9051148891448975
+}

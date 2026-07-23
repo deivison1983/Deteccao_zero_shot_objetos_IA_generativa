@@ -1,0 +1,50 @@
+{
+  "arquivo": "sala-2.jpg",
+  "relatorio": {
+    "total": 3,
+    "classes": {
+      "a tree": 1,
+      "a residential house": 1,
+      "window": 1
+    },
+    "confianca_media": 0.4372052351633708,
+    "confianca_min": 0.36644548177719116,
+    "confianca_max": 0.5423884391784668
+  },
+  "deteccoes": [
+    {
+      "scores": 0.5423884391784668,
+      "boxes": [
+        436.829345703125,
+        446.7810363769531,
+        495.1264343261719,
+        538.319091796875
+      ],
+      "text_labels": "a tree",
+      "labels": "a tree"
+    },
+    {
+      "scores": 0.40278178453445435,
+      "boxes": [
+        0.7080826163291931,
+        3.1121320724487305,
+        729.2919921875,
+        905.1085205078125
+      ],
+      "text_labels": "a residential house",
+      "labels": "a residential house"
+    },
+    {
+      "scores": 0.36644548177719116,
+      "boxes": [
+        53.904972076416016,
+        231.25241088867188,
+        159.80227661132812,
+        563.0361328125
+      ],
+      "text_labels": "window",
+      "labels": "window"
+    }
+  ],
+  "tempo": 0.6905081272125244
+}

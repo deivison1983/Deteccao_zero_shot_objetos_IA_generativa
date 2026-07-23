@@ -1,0 +1,26 @@
+{
+  "arquivo": "cozinha.jpg",
+  "relatorio": {
+    "total": 1,
+    "classes": {
+      "a chair": 1
+    },
+    "confianca_media": 0.6365197896957397,
+    "confianca_min": 0.6365197896957397,
+    "confianca_max": 0.6365197896957397
+  },
+  "deteccoes": [
+    {
+      "scores": 0.6365197896957397,
+      "boxes": [
+        72.71784973144531,
+        282.7397155761719,
+        201.82577514648438,
+        452.2593994140625
+      ],
+      "text_labels": "a chair",
+      "labels": "a chair"
+    }
+  ],
+  "tempo": 0.9115729331970215
+}

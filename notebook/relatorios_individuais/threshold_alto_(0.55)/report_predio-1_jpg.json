@@ -1,0 +1,38 @@
+{
+  "arquivo": "predio-1.jpg",
+  "relatorio": {
+    "total": 2,
+    "classes": {
+      "a pedestrian walking": 1,
+      "car": 1
+    },
+    "confianca_media": 0.6813420951366425,
+    "confianca_min": 0.6631268858909607,
+    "confianca_max": 0.6995573043823242
+  },
+  "deteccoes": [
+    {
+      "scores": 0.6995573043823242,
+      "boxes": [
+        582.1384887695312,
+        906.8789672851562,
+        636.8442993164062,
+        1018.9199829101562
+      ],
+      "text_labels": "a pedestrian walking",
+      "labels": "a pedestrian walking"
+    },
+    {
+      "scores": 0.6631268858909607,
+      "boxes": [
+        104.54651641845703,
+        958.138916015625,
+        247.21815490722656,
+        1022.9573974609375
+      ],
+      "text_labels": "car",
+      "labels": "car"
+    }
+  ],
+  "tempo": 0.7991428375244141
+}
