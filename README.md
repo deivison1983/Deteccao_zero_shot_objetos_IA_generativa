@@ -1,7 +1,7 @@
 # Detecção Zero-Shot de Objetos com Grounding DINO e IA Generativa Multimodal
 
 <div align="center">
-      <img src="notebook/relatorios_individuais/detected_city.png" width="75%" height="75%">
+      <img src="notebook/relatorios_individuais/threshold_baixo_(0.15)/detected_city.png" width="75%" height="75%">
 </div> 
 
 ## Sobre o Projeto
