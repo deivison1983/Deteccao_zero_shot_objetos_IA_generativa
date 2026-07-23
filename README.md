@@ -37,6 +37,10 @@ Utilizando a arquitetura multimodal Grounding DINO (Hugging Face), o projeto tra
 5. **Análise de Saída:**
    * Consolidação das predições em arquivos JSON e sumarização analítica das detecções para consumo de dados.
 
+  <div align="center">
+      <img src="imagens/pipeline.png" width="75%" height="75%">
+</div> 
+
 ---
 
 ## Principais Etapas Desenvolvidas
