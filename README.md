@@ -1,0 +1,1 @@
+# Deteccao_zero_shot_objetos_IA_generativa
